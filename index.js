@@ -5,3 +5,13 @@ function theBeatlesPlay(musicianArray, instrumentArray) {
   }
   return beatlesPlayArray;
 }
+
+function johnLennonFacts(array) {
+  let lennonFactsArray = new Array();
+  let i = 0;
+  while (i < array.length) {
+    lennonFactsArray.push(array[i] + '!!!');
+    i++;
+  }
+  return lennonFactsArray;
+}
